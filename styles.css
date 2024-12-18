@@ -1,0 +1,73 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0fe;
+    color: #333;
+}
+header {
+    background: #034efc;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+header p {
+    font-size: 1.2rem;
+}
+nav {
+    background: #0039ac;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+section {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+section h2 {
+    color: #034efc;
+    border-bottom: 3px solid #034efc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #034efc;
+    color: #fff;
+    margin-top: 2rem;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
